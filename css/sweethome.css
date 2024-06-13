@@ -1,0 +1,127 @@
+.banner_ontop{
+    background: #212529;
+
+}
+.location{
+    color: #D99F46;
+
+}
+.banner_home{
+    justify-content: space-between;
+}
+.search_box a{
+    background: #D99F46;
+    border: 1px solid #D99F46;
+}
+.all_Categories{
+    background: linear-gradient(90.81deg, #222221 12.35%, #2F2F2D 99.38%);
+}
+.Deal_today{
+    color: #D99F46;
+background:#fcf6ed;
+}
+.banner_left, .banner_right{
+    width: 320px ;
+}
+.banner_center{
+    width: calc(100% - 705px);
+}
+.cate_menu_list .wrp{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    justify-content: space-between;
+}
+.cate_menu_list{
+    margin-bottom: var(--block-margin);
+}
+.wrp .ct_item{
+    padding: 15px 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    background: #F8F8F8;    
+    cursor: pointer;
+}
+.ct_item img{
+    width: 45px;
+}
+.cashback_sw{
+    margin-bottom: 34px;
+}
+.count_down{
+    background: #D99F46;
+
+}
+.product_price .old_price{
+    color: #D99F46;
+}
+.product_info .status{
+    color: #D99F46;
+}
+a.add_to_cart:hover{
+    background: #fcf6ed;
+}
+.limited{
+    margin-bottom: var(--block-margin);
+}
+label.subcribe button{
+    background: #D99F46;
+
+}
+.save_today.kind_of_cake .categoty_item_list{
+    border: unset;
+}
+.cake_item{
+    width: calc((100% - 20px) /3 );
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.save_today.kind_of_cake .infor_cake{
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.save_today.kind_of_cake .infor_cake img{
+    width: 90px;
+}
+.save_today.kind_of_cake .infor_cake span.price{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.infor_cake .new_price{
+    font-size: 16px;
+    font-weight: 600;
+}
+.infor_cake .old_price{
+    font-weight: 600;
+    color: #FF4F4F;
+
+}
+.save_today.kind_of_cake .categoty_item_list{
+    gap: 10px;
+}
+.infor_cake p.name{
+    font-weight: 600;
+    font-size: 16px;
+}
+.save_today.Staples .categoty_item_list{
+    border: unset;
+    gap: 10px;
+}
+.save_today.Staples .categoty_item_list .product_item{
+    border: unset;
+}
+.save_today.Staples .categoty_item_list .product_item{
+    width: calc((100% - 40px) /5 );
+    background: #F8F8F8;
+    border-radius: 5px;
+}
+.save_today.Staples a.add_to_cart{
+    background: #FFFFFF;
+
+}
