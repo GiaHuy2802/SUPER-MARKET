@@ -1,0 +1,33 @@
+.header_top .wrp{
+    justify-content: space-between;
+}
+.search_box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: url(../images/div.home-contain\ copy.svg) repeat no-repeat;
+    height: 620px;
+}
+h1{
+width: 650px;
+font-size: 58px;
+font-weight: 600;
+line-height: 81.2px;
+text-align: center;
+}
+form.search_box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #CED4DA;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 19px;
+}
+.search_box input{
+    background: unset;
+    border: unset;
+    padding: 0;
+    height: auto;
+}
